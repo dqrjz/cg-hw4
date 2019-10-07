@@ -319,17 +319,17 @@ function onStartFrame(t, state) {
     gl.uniform3fv(state.uMaterialsLoc[1].transparent , [.6,.6,.6]);
     gl.uniform1f (state.uMaterialsLoc[1].indexOfRefraction   , 1.2);
 
-    gl.uniform3fv(state.uMaterialsLoc[2].ambient , [0.8,0.6,0.8]);
-    gl.uniform3fv(state.uMaterialsLoc[2].diffuse , [0.1,0.8,0.8]);
-    gl.uniform3fv(state.uMaterialsLoc[2].specular, [0.2,0.2,0.8]);
+    gl.uniform3fv(state.uMaterialsLoc[2].ambient , [.9,.5,.1]);
+    gl.uniform3fv(state.uMaterialsLoc[2].diffuse , [.5,.7,.2]);
+    gl.uniform3fv(state.uMaterialsLoc[2].specular, [.7,.3,.3]);
     gl.uniform1f (state.uMaterialsLoc[2].power   , 15.);
     gl.uniform3fv(state.uMaterialsLoc[2].reflect , [.8,.7,.6]);
     gl.uniform3fv(state.uMaterialsLoc[2].transparent , [.6,.6,.6]);
     gl.uniform1f (state.uMaterialsLoc[2].indexOfRefraction   , 1.2);
 
-    gl.uniform3fv(state.uMaterialsLoc[3].ambient , [0.8,0.6,0.8]);
-    gl.uniform3fv(state.uMaterialsLoc[3].diffuse , [0.1,0.8,0.8]);
-    gl.uniform3fv(state.uMaterialsLoc[3].specular, [0.2,0.2,0.8]);
+    gl.uniform3fv(state.uMaterialsLoc[3].ambient , [.7,.3,.5]);
+    gl.uniform3fv(state.uMaterialsLoc[3].diffuse , [.8,.3,.9]);
+    gl.uniform3fv(state.uMaterialsLoc[3].specular, [.3,.3,.8]);
     gl.uniform1f (state.uMaterialsLoc[3].power   , 15.);
     gl.uniform3fv(state.uMaterialsLoc[3].reflect , [.8,.7,.6]);
     gl.uniform3fv(state.uMaterialsLoc[3].transparent , [.1,.1,.1]);
